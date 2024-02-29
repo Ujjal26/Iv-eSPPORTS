@@ -1,0 +1,113 @@
+body{
+    background-image: url(hexagon.jpg);
+}
+.head{
+  background-image: linear-gradient(
+      to bottom right,
+      rgb(35, 58, 188),
+      rgb(70, 119, 214),
+      rgb(126, 214, 236),
+      rgb(127, 215, 235),
+      rgb(17, 136, 160)
+    );
+    height: 1000px;
+
+  }
+#About{
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(35, 58, 188),
+        rgb(70, 119, 214),
+        rgb(126, 214, 236),
+        rgb(127, 215, 235),
+        rgb(17, 136, 160)
+      );
+      height:700px;
+      margin-top: 50px;
+      padding:5px ;
+    }
+#Achievements{
+      background-image: linear-gradient(
+          to bottom right,
+          rgb(35, 58, 188),
+          rgb(70, 119, 214),
+          rgb(126, 214, 236),
+          rgb(127, 215, 235),
+          rgb(17, 136, 160)
+        );
+        height:700px;
+        margin-top: 50px;
+        padding:5px ;
+      }
+#Players{
+        background-image: linear-gradient(
+            to bottom right,
+            rgb(35, 58, 188),
+            rgb(70, 119, 214),
+            rgb(126, 214, 236),
+            rgb(127, 215, 235),
+            rgb(17, 136, 160)
+          );
+          height:700px;
+          margin-top: 50px;
+          padding:5px ;
+        }
+ #contact{
+        background-image: linear-gradient(
+            to bottom right,
+            rgb(35, 58, 188),
+            rgb(70, 119, 214),
+            rgb(126, 214, 236),
+            rgb(127, 215, 235),
+            rgb(17, 136, 160)
+          );
+          height:500px;
+          margin-top: 50px;
+          margin-bottom: 100ox;
+          padding:5px ;
+        }
+header{
+    display: flex;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    float: right;
+}
+#motto{
+  margin-top: 65px;
+  position: relative;
+  float: left;
+  color: black;
+  font-family: "Russo One", Sans-serif;
+  font-weight: 1000px;
+  letter-spacing: 1.8px;
+  word-spacing: 8px;
+}
+h1{
+  text-align: center;
+}
+.card{
+  background-color: transparent ;
+}
+#navbar{
+  background-color: transparent;
+}
+.para{
+  position: relative;
+  float:inline-start;
+  color: black;
+}
+.btn{
+  color: bisque;
+  background-color: black;
+  border-radius: 35px;
+}
+#logomotto{
+  height: 700px;
+  margin-top: 100px;
+}
+.headtop{
+  color: black;
+}
