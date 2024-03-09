@@ -14,6 +14,7 @@ h1{
 }
 body{
     background-image: url(hexagon.jpg);
+    size: 200%;
 }
 .head{
   background-image: linear-gradient(
@@ -37,8 +38,9 @@ body{
         rgb(17, 136, 160)
       );
       height:700px;
-      margin-top: 50px;
-      padding:5px ;
+      margin: 50px;
+      padding:10px ;
+      border-radius: 5%;
     }
 #Achievements{
       background-image: linear-gradient(
@@ -51,7 +53,10 @@ body{
         );
         height:700px;
         margin-top: 50px;
-        padding:5px ;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding:10px ;
+        border-radius: 5%;
       }
 #Players{
         background-image: linear-gradient(
@@ -64,7 +69,10 @@ body{
           );
           height:700px;
           margin-top: 50px;
-          padding:5px ;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding:10px ;
+          border-radius: 5%;
         }
  #contact{
         background-image: linear-gradient(
@@ -77,8 +85,11 @@ body{
           );
           height:500px;
           margin-top: 50px;
-          margin-bottom: 100ox;
-          padding:5px ;
+          margin-bottom: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding:10px ;
+          border-radius: 5%;
         }
 header{
     display: flex;
@@ -89,15 +100,31 @@ header{
     position: relative;
     float: right;
 }
+#logo-element-picture{
+  height: 500px;
+  width: 400px;
+  position: relative;
+  float: right;
+  padding-right: 20px;
+}
+#logo-element-pic{
+  height: 400px;
+  width: 300px;
+  position: relative;
+  float: right;
+}
 #motto{
   margin-top: 65px;
   position: relative;
   float: left;
   color: black;
-  font-family: "Russo One", Sans-serif;
   font-weight: 1000px;
   letter-spacing: 1.8px;
   word-spacing: 8px;
+}
+#motto-element-team{
+  font-size: 100px;
+  margin-bottom: 50px;
 }
 h1{
   text-align: center;
@@ -107,6 +134,14 @@ h1{
 }
 #navbar{
   background-color: transparent;
+  padding: 20px;
+  
+}
+.nav-item-heading{
+  font-size: 40px;
+  margin-right: 20px;
+  align-content: center;
+  font-weight: bold;
 }
 .para{
   position: relative;
@@ -122,6 +157,8 @@ h1{
   height: 700px;
   margin-top: 100px;
 }
-.headtop{
+.card-header{
   color: black;
+  font-size: 72px;
+
 }
