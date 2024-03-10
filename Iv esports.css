@@ -145,8 +145,8 @@ h1{
   transition-duration: 2s;
 }
 .nav-item-heading:hover{
-  font-size: 60px;
-  margin-right: 40px;
+  font-size: 50px;
+  margin-right: 30px;
   align-content: center;
   font-weight: bold;
   transition-duration: 2s;
