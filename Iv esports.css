@@ -142,6 +142,14 @@ h1{
   margin-right: 20px;
   align-content: center;
   font-weight: bold;
+  transition-duration: 2s;
+}
+.nav-item-heading:hover{
+  font-size: 60px;
+  margin-right: 40px;
+  align-content: center;
+  font-weight: bold;
+  transition-duration: 2s;
 }
 .para{
   position: relative;
